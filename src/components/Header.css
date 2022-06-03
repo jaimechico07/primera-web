@@ -1,0 +1,62 @@
+.site_header {
+    background-color: #173083;
+    max-height: 76px;
+    height: 76px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 4;
+    box-shadow: none;
+}
+
+
+.nav_container{
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 5px 6px -3px rgb(0 0 0 / 20%);
+    position: fixed;
+    top: 57px;
+    width: 100%;
+    z-index: 4;
+    height: 69px;
+    max-height: 69px;
+
+}
+
+.nav_container-menu {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    max-height: 100%;
+}
+
+.max-container {
+    max-width: 1134px;
+    width: 100%;
+    margin: auto;
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 20px 10px 20px 0;
+}
+
+
+.nav_container .nav_menu a {
+    margin-right: 10px;
+    color: #21388b;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: all .2s;
+    cursor: pointer;
+    font-weight: 200;
+    line-height: 1.5;
+   
+}
+
+.nav_container .nav_menu a:hover {
+    border-bottom: 3px solid red;
+}  
